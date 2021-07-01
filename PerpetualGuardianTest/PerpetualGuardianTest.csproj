@@ -32,4 +32,20 @@
     <ProjectReference Include="..\PerpetualGuardian\PerpetualGuardian.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="testFile\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="testFile\IMGP0055.JPG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="testFile\IMGP0056.JPG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="testFile\IMGP0057.JPG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
